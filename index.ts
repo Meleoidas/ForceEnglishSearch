@@ -16,68 +16,68 @@ export default definePlugin({
             find: /'{"hPBScn":"(?!Dismiss popup window")/,
             replacement: [
                 {
-                    match: /(?<="1TUdFh":).+?"/, // from
-                    replace: '"from"'
+                    match: /"1TUdFh":.+?",/, // from
+                    replace: ""
                 },
                 {
-                    match: /(?<="E466pK":).+?"/, // from
-                    replace: '"user"'
+                    match: /"E466pK":.+?",/, // from
+                    replace: ""
                 },
                 {
-                    match: /(?<="i96lOz":)".+?"/, // mentions
-                    replace: '"mentions"'
+                    match: /"i96lOz":".+?",/, // mentions
+                    replace: ""
                 },
                 {
-                    match: /(?<="BYvFWl":).+?"/, // mentions
-                    replace: '"user"'
+                    match: /"BYvFWl":.+?",/, // mentions
+                    replace: ""
                 },
                 {
-                    match: /(?<="CqCvio":).+?"/, // has
-                    replace: '"has"'
+                    match: /"CqCvio":.+?",/, // has
+                    replace: ""
                 },
                 {
-                    match: /(?<="bhSYbW":).+?"/, // has
-                    replace: '"link, embed or file"'
+                    match: /"bhSYbW":.+?",/, // has
+                    replace: ""
                 },
                 {
-                    match: /(?<="qZ\+7BA":).+?"/, // before
-                    replace: '"before"'
+                    match: /"qZ\+7BA":.+?",/, // before
+                    replace: ""
                 },
                 {
-                    match: /(?<="h2NzSU":).+?"/, // during
-                    replace: '"during"'
+                    match: /"h2NzSU":.+?",/, // during
+                    replace: ""
                 },
                 {
-                    match: /(?<="KSDx7O":).+?"/, // after
-                    replace: '"after"'
+                    match: /"KSDx7O":.+?",/, // after
+                    replace: ""
                 },
                 {
-                    match: /(?<="Zbbc1N":).+?"/, // before, during, after
-                    replace: '"specific date"'
+                    match: /"Zbbc1N":.+?",/, // before, during, after
+                    replace: ""
                 },
                 {
-                    match: /(?<="WNpFHR":).+?"/, // in
-                    replace: '"in"'
+                    match: /"WNpFHR":.+?",/, // in
+                    replace: ""
                 },
                 {
-                    match: /(?<="GpM\+..":).+?"/, // in
-                    replace: '"channel"'
+                    match: /"GpM\+..":.+?",/, // in
+                    replace: ""
                 },
                 {
-                    match: /(?<="0B74eX":).+?"/, // pinned
-                    replace: '"pinned"'
+                    match: /"0B74eX":.+?",/, // pinned
+                    replace: ""
                 },
                 {
-                    match: /(?<="UJxL3d":).+?"/, // pinned
-                    replace: '"true or false"'
+                    match: /"UJxL3d":.+?",/, // pinned
+                    replace: ""
                 },
                 {
-                    match: /(?<="us8IQk":).+?"/, // authorType
-                    replace: '"authorType"'
+                    match: /"us8IQk":.+?",/, // authorType
+                    replace: ""
                 },
                 {
-                    match: /(?<="qCQzBg":).+?"/, // authorType
-                    replace: '"user, bot or webhook"'
+                    match: /"qCQzBg":.+?",/, // authorType
+                    replace: ""
                 },
             ]
         },
